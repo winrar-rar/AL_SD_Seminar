@@ -1,5 +1,8 @@
 page 123456702 "CSD Seminar List"
 {
+// CSD1.00 - 2018-09-27 - D. E. Veloper
+// Chapter 5 - Lab 2-6
+
     PageType = List;
     SourceTable = "CSD Seminar";
     Caption='Seminar';
@@ -65,9 +68,9 @@ page 123456702 "CSD Seminar List"
                     // RunPageLink = "Table Name"= const(Seminar),
                     //                "No."=field("No."); 
                     Image = Comment;
-                    Promoted=true;
-                    PromotedIsBig=true;
-                    PromotedOnly=true;
+                   //? Promoted=true;
+                   //? PromotedIsBig=true;
+                   //? PromotedOnly=true;
                 }
             }
         }
