@@ -3,6 +3,7 @@ codeunit 123456700 "CSD Seminar-Post"
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 4-7
     //     - Created new codeunit
+    // 
 
     TableNo = 123456710;
 
