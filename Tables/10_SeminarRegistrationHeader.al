@@ -4,6 +4,10 @@ table 123456710 "CSD Seminar Reg. Header"
     //   Chapter 6 - Lab 1-3 & Lab 1-4
     //     - Created new table
 
+    // 2018-09-29 - D. E. Veloper
+    // Chapter 9 - Lab 1-1
+    // - Added new field "No. Printed"
+
     Caption = 'Seminar Registration Header';
 
     fields
@@ -286,6 +290,12 @@ table 123456710 "CSD Seminar Reg. Header"
         field(28; "Posting No."; Code[20])
         {
             Caption = 'Posting No.';
+        }
+
+        field(40;"No. Printed";Integer)
+        {
+            Caption='No. Printed';
+            Editable=false;
         }
 
     }
