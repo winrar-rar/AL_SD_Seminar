@@ -103,6 +103,7 @@ page 123456702 "CSD Seminar List"
         {
             action("Seminar Registration")
             {
+                Caption='Seminar Registration';
                 RunObject=page "CSD Seminar Registration";
                 RunPageLink="Seminar No."=field("No.");
                 RunPageMode=Create;

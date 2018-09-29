@@ -124,6 +124,7 @@ page 123456701 "CSD Seminar Card"
         {
             action("Seminar Registration")
             {
+                Caption='Seminar Registration';
                 RunObject=page "CSD Seminar Registration";
                 RunPageLink="Seminar No."=field("No.");
                 RunPageMode=Create;

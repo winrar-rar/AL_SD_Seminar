@@ -3,6 +3,7 @@ report 123456701 "CSD SeminarRegParticipantList"
     UsageCategory=ReportsAndAnalysis;
     Caption='Seminar Reg.-Particpipant List';
     DefaultLayout=RDLC;
+    RDLCLayout='./Layouts/SeminarRegParticipantList.rdl';
     
     
 
@@ -45,14 +46,18 @@ report 123456701 "CSD SeminarRegParticipantList"
 
             dataitem("CSD Posted Seminar Reg. Line";"CSD Posted Seminar Reg. Line")
             {
-                DataItemTableView=sorting("Document No.","Line No.");
                 DataItemLink="Document No."=field("No.");
-
+                DataItemTableView=sorting("Document No.","Line No.");
+                
                 column(Bill_to_Customer_No_;"Bill-to Customer No.")
                 {
                     IncludeCaption=true;
                 }
                 column(Participant_Contact_No_;"Participant Contact No.")
+                {
+                    IncludeCaption=true;
+                }
+                column(Participant_Name;"Participant Name")
                 {
                     IncludeCaption=true;
                 }
