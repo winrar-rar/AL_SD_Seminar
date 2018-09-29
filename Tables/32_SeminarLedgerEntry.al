@@ -4,6 +4,9 @@ table 123456732 "CSD Seminar Ledger Entry"
     //   Chapter 7 - Lab 1
     //     - Created new table
 
+    // Chapter 8 - Lab 2-1
+    // Added key2
+
     Caption = 'Seminar Ledger Entry';
 
     fields
@@ -158,6 +161,10 @@ table 123456732 "CSD Seminar Ledger Entry"
     {
         key(Key1;"Entry No.")
         {
+        }
+        key(key2;"Document No.","Posting Date")
+        {
+
         }
     }
 }
