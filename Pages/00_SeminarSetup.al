@@ -1,7 +1,7 @@
 page 123456700 "CSD Seminar Setup"
 {
 // CSD1.00 - 2018-09-27 - D. E. Veloper
-// Chapter 5 2-3
+// Chapter 5 2-3 
 
     PageType = Card;
     SourceTable = "CSD Seminar Setup";
